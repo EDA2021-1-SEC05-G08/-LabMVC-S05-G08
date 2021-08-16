@@ -85,7 +85,7 @@ while True:
     elif int(inputs[0]) == 3:
         print("Cargando el archivo book_tags.csv....")
         book_tags = loadBook_tags()
-        print('Total de tags cargados: ' + str(lt.size(book_tags)))
+        print('Total de libros cargados: ' + str(lt.size(book_tags)))
 
     else:
         sys.exit(0)
